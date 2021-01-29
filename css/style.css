@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background-color: #a0a0a1;
+    background: url('https://unsplash.com/photos/g2MossmxZNs/download?force=true&w=1920') bottom no-repeat;
+    background-size: cover;
+}
+
+h1{
+    color: rgb(247, 159, 52);
+    font-size: 4rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer{
+    padding-top: 20px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+footer .links {
+    margin-bottom: 50px;
+}
+
+footer .links > a {
+    color: dimgrey;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.copyright{
+    color: gray;
+    font-family: 'Times New Roman', Times, serif;
+}
+.news1 {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+.news2 {
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
